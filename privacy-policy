@@ -1,0 +1,15 @@
+# Playback Kiosk privacy policy
+
+Prepared 29 October 2026 for version 1.3. Before publishing, add the legal publisher name, a real support contact and an effective date. This file is not a published privacy-policy URL.
+
+Playback Kiosk stores imported files, settings, recent addresses, the last selected page and a remote pairing code on your device. WebKit may store website cookies and browsing data. This app build includes no developer analytics, advertising SDK, app account service or developer-operated data upload.
+
+Websites and imported HTML that you choose can make network requests and follow their own privacy practices. Their servers may receive information such as your IP address and request contents. Use content you trust.
+
+The optional local control server is off by default. When enabled, it advertises a Bonjour service. Clients with the pairing code can see the device name, file names and sizes, selected page address, page controls and state. They can change the displayed page and execute JavaScript within it. The root panel and command reference are public. Connections use HTTP, which does not encrypt traffic. Use a trusted network and do not expose the server to the Internet. Turn the server off or regenerate the pairing code to revoke access.
+
+Remote-control names are stored in the controller browser's local storage. Its pairing session is stored in session storage for that tab and origin. Clear that browser storage to remove them.
+
+Delete imported files through the app, Files or Finder. Removing a recent address removes that history entry; it does not clear website data. Uninstalling removes the local app container, while device backups may retain copies according to your backup settings. The developer does not operate a server holding copies of your imported files.
+
+For support and privacy questions, use the publisher's contact details on the published support page. Publisher and contact details must be supplied before this policy is used publicly.
